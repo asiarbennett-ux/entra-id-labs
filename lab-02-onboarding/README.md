@@ -37,10 +37,10 @@ To establish a secure, lightning-fast employee lifecycle pipeline, we deployed t
 ## 📸 Implementation Gallery
 
 ### 1. Bulk User Provisioning Results
-![Bulk Import Operations](screenshots/01-bulk-import.jpeg)
+![Bulk Import Operations](screenshot/01-bulk-import.jpeg)
 
 ### 2. Access Package Configuration & Review
-![Access Packages](screenshots/02-access-packages.jpeg)
+![Access Packages](screenshot/02-access-packages.jpeg)
 
 ### 3. Temporary Access Pass (TAP) Policy Setup
-![TAP Configuration](screenshots/03-tap-configuration.jpeg)
+![TAP Configuration](screenshot/03-tap-configuration.jpeg)
