@@ -80,3 +80,5 @@ entra-id-labs/
 ├── lab-05-conditional-access/       # Zero-trust access policies
 ├── lab-06-pim/                      # JIT administrative controls
 └── lab-07-federation/               # SAML app integration & claims
+```
+Every individual lab directory houses a dedicated `README.md` technical write-up alongside a `screenshots/` directory capturing configuration states and validation evidence. Lab 04 also features an isolated `scripts/` directory containing production automation code.
