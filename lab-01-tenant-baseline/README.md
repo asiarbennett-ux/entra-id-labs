@@ -1,6 +1,6 @@
 # 🛰️ Lab 01: Tenant Baseline Hardening & Custom RBAC
-**Organization:** Aetheris Orbital Dynamics[cite: 1]  
-**Environment:** Microsoft Entra ID P2[cite: 1]  
+**Organization:** Aetheris Orbital Dynamics  
+**Environment:** Microsoft Entra ID P2 
 **Status:** Secured & Operational  
 
 ---
