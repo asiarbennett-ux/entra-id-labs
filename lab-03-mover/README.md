@@ -1,4 +1,4 @@
-# 🚀 Lab 03 — Automated Mover: Automated Legacy Access Removal
+# 🚀 Lab 03 — Automated Mover: Department Transfer & Automated Legacy Access Removal
 
 **Organization:** Aetheris Orbital Dynamics  
 **Environment:** Microsoft Entra ID P2 Status: Secured & Operational 🛡️
@@ -15,7 +15,7 @@ Our core objective for this phase was to engineer an automated "Mover" lifecycle
 ## 🛠️ 2. What architecture or configuration was implemented?
 To establish an attribute driven cross division workflow, we deployed three core controls within our Entra ID P2 environment:
 * **Attribute-Driven Dynamic Memberships:** Configured Entra ID security groups with advanced rule syntax (`user.department -eq "..."`) to automatically evaluate and assign group membership based on authoritative HR attributes.
-* **Automated Privilege Revocation:** Built the dynamic logic to ensure that once a user's department changes, Entra ID automatically drops them from legacy department groups, eliminating orphan access without manual ticket queues.
+* **Automated Legacy Access Removal:** Built the dynamic logic to ensure that once a user's department changes, Entra ID automatically drops them from legacy department groups, eliminating orphan access without manual ticket queues.
 * **Controlled Fault-Injection Test:** Deliberately introduced an attribute typo (`Mission Eng`) during the transfer simulation to test rule evaluation failures, followed by remediation to the exact string (`Mission Engineering`).
 
 ---
@@ -45,7 +45,7 @@ To establish an attribute driven cross division workflow, we deployed three core
 ### 3. Dynamic Group Membership Evaluation & Troubleshooting
 ![Dynamic Membership](screenshots/03-dynamic-membership.jpeg)
 
-### 4. Legacy Access Revocation (Privilege Mitigation)
+### 4. Legacy Access Removal & Audit Validation
 ![Legacy Access Removed](screenshots/04-legacy-access-removed.jpeg)
 
 ### 5. Final Reconciled Access State
