@@ -43,4 +43,4 @@ To establish a secure, lightning-fast employee lifecycle pipeline, we deployed t
 ![Access Packages](screenshot/02-access-packages.jpeg)
 
 ### 3. Temporary Access Pass (TAP) Policy Setup
-![TAP Configuration](screenshot/03-tap-configuration.jpeg)
+![TAP Configuration](screenshot/03-tap-configuration.jpg)
