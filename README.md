@@ -5,7 +5,7 @@
 ### *Advanced Identity Engineering, Zero-Trust Architecture, & Automated Lifecycle Governance*
 
 [![Platform](https://img.shields.io/badge/Platform-Microsoft_Entra_ID-0078D4?style=flat-square&logo=microsoft&logoColor=white)](https://github.com/asiabennett-ux)
-[![Automation](https://img.shields.io/badge/Automation-Python_3.11_%2F_Graph_API-3776AB?style=flat-square&logo=python&logoColor=white)](https://github.com/asiabennett-ux)
+[![Automation](https://img.shields.io/badge/Automation-Python_3.14.7_%2F_Graph_API-3776AB?style=flat-square&logo=python&logoColor=white)](https://github.com/asiabennett-ux)
 [![Security Standard](https://img.shields.io/badge/Standard-NIST_SP_800--63_%2F_Zero_Trust-orange?style=flat-square)](https://github.com/asiabennett-ux)
 
 </div>
@@ -16,7 +16,7 @@
 
 Most IAM lab write-ups stop at *"here is where you click in the portal."* These are built differently. 
 
-Every lab models a high-stakes operational challenge at **Aetheris Orbital Dynamics**—a fast-growing orbital launch and satellite telemetry provider. Every scenario is built end-to-end, automated through Python and the Microsoft Graph SDK, and rigorously validated using real sign-in telemetry, audit records, and raw token outputs.
+Every lab models a high-stakes operational challenge at **Aetheris Orbital Dynamics**—a fast-growing orbital launch and satellite telemetry provider. Every scenario is built end-to-end, automated through Python and the Microsoft Graph SDK, and rigorously validated using sign-in telemetry, audit records, and token-based API responses.
 
 ### 🧩 The 4-Question Engineering Framework
 Every individual lab folder answers four essential questions:
