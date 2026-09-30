@@ -32,10 +32,10 @@ Every individual lab folder answers four essential questions:
 ### Phase 1: Identity Lifecycle & Provisioning
 | Lab | Focus Area | Key Technical Outcome |
 | :--- | :--- | :--- |
-| **[lab-01-tenant-baseline](./lab-01-tenant-baseline/)** | Tenant setup, RBAC personas, business rules | Establishing granular admin scopes prevents privilege creep before automation begins. |
-| **[lab-02-onboarding](./lab-02-onboarding/)** | Bulk user provisioning & temporary access packages | Handled malformed batch inputs gracefully without manual admin intervention. |
-| **[lab-03-mover](./lab-03-mover/)** | Cross-division transfers & dynamic groups | Department transfers required explicit attribute restructuring to drop legacy clearance roles. |
-| **[lab-04-offboarding](./lab-04-offboarding/)** | Python, PowerShell, Microsoft Graph SDK | Closed the active session exposure window down from over 2 minutes to **0.463 seconds**. |
+| **[lab-01-tenant-baseline](./lab-01-tenant-baseline/)** | Tenant setup, RBAC personas, administrative scopes | Established RBAC personas and scoped administrative roles to enforce least privilege before automation workflows were introduced. |
+| **[lab-02-onboarding](./lab-02-onboarding/)** | Bulk user provisioning, validation logic, temporary access workflows | Automated user lifecycle while validating input data and preventing incomplete provisioning. |
+| **[lab-03-mover](./lab-03-mover/)** | Cross-division transfers, attribute driven access, dynamic groups | Department trasfers required attibute updates to enforce correct dynamic group membership and remove outdated access assignments. |
+| **[lab-04-offboarding](./lab-04-offboarding/)** | Python automation, Microsoft Graph, Entra ID lifecycle management | Automated Entra ID offboarding through Microsoft Graph with controlled access removal and verification. |
 
 ### Phase 2: Access Control & Governance
 | Lab | Focus Area | Key Technical Outcome |
