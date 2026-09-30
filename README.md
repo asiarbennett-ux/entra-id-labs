@@ -56,13 +56,13 @@ Every individual lab folder answers four essential questions:
 
 * 🧬 **Attribute-Driven Scale:** Access tied to HR attributes scales dynamically with lifecycle state changes.
 * 🛡️ **Controlled Exception Paths:** High-risk privileges require formal justification, strict expiration windows, and explicit sponsor approval, leaving an immutable audit trail.
-* ⚡ **Proactive Revocation:** Offboarding automation immediately strips active refresh tokens rather than waiting for natural expiration cycles.
+* ⚡ **Proactive Revocation:** Offboarding automation revokes active sign-in sessions and removes assigned access rather than relying solely on natural token expiration.
 
 ---
 
 ## 🛠️ Technical Stack & Tooling
 
-* **Automation & Core APIs:** Python 3.11, Microsoft Graph SDK, PowerShell Core, REST Endpoints
+* **Automation & Core APIs:** Python 3.14.7, Microsoft Graph SDK, PowerShell Core, REST APIs
 * **Identity Platforms:** Microsoft Entra ID (P2), Active Directory DS, Hybrid Synchronization Architecture
 * **Protocols & Standards:** SAML 2.0, OAuth 2.0 / OIDC, SCIM 2.0, NIST SP 800-63 Zero Trust Guidelines
 
@@ -76,7 +76,7 @@ entra-id-labs/
 ├── lab-01-tenant-baseline/          # Tenant setup & foundational structure
 ├── lab-02-onboarding/               # Automated provisioning
 ├── lab-03-mover/                    # Dynamic department transitions
-├── lab-04-offboarding/              # Python & Graph API revocation scripts
+├── lab-04-offboarding/              # Python & Graph API identity lifecycle automation
 ├── lab-05-conditional-access/       # Zero-trust access policies
 ├── lab-06-pim/                      # JIT administrative controls
 └── lab-07-federation/               # SAML app integration & claims
