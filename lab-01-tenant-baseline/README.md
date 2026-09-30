@@ -38,10 +38,10 @@ To establish a hardened, production-grade enterprise posture, we deployed three 
 ## 📸 Implementation Gallery
 
 ### User Settings & Portal Hardening
-![User Settings Hardening](screenshots/02-user-settings-restrictions)
+![User Settings Hardening](screenshots/02-user-settings-restrictions.jpeg)
 
 ### Emergency Break-Glass Account
-![Break-Glass Account Overview](screenshots/03-break-glass-account)
+![Break-Glass Account Overview](screenshots/03-break-glass-account.jpeg)
 
 ### Custom Satellite Telemetry RBAC Role
-![Custom Satellite Telemetry Role](screenshots/04-rbac-custom-role)
+![Custom Satellite Telemetry Role](screenshots/04-rbac-custom-role.jpeg)
